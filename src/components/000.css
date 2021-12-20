@@ -1,8 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700&display=swap");
 .bar {
   height: 8vh !important;
+  /* font-family: "mulish", sans-serif; */
 }
+.avatar {
+  max-width: 5vh;
+  height: auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #00ed64;
+}
+.icon-email {
+  font-size: 3vh;
+  color: #00ed64 !important;
+}
+
 .con {
   margin-top: 8vh !important;
   height: 76vh !important;
   margin-bottom: 8vh;
+}
+
+.text-flux {
+  color: #00ed64 !important;
 }
