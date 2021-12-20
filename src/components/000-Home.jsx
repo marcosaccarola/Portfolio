@@ -9,7 +9,7 @@ const Home=()=>{
         <>
             <Bar />
             <Central />
-            <Panel />
+            {/* <Panel /> */}
         </>
     )
 }
