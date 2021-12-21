@@ -9,7 +9,7 @@ const Central=()=>{
     }
 
     return(
-            <Container className='bg-dark con'>
+            <Container className='bg-dark con border-blue'>
                 <Row className='text-flux box'>
 
                     <Col lg={7} className='my-auto'>
