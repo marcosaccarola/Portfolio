@@ -3,6 +3,7 @@ import './000.css'
 import { AiOutlineMail } from 'react-icons/ai';
 import Marco from '../assets/Marco-Saccarola.jpg'
 import Parrot from '../assets/parrot.png'
+import Gato from '../assets/gato.webp'
 
 const Bar=()=>{
     const openGitHub=()=>{
@@ -13,7 +14,7 @@ const Bar=()=>{
     return(
         <Navbar bg="dark" variant='dark' sticky='top' className='min-vw-100 bar'>
             <Container>
-                <Navbar.Brand onClick={openGitHub}><Image className='img-avatar' src={Parrot} /></Navbar.Brand>
+                <Navbar.Brand onClick={openGitHub}><Image className='img-avatar border-flux' src={Gato} /></Navbar.Brand>
                 <Nav className="me-auto">
                     <Nav.Link onClick={openGitHub} className='text-flux'>marco.saccarola</Nav.Link>
                 </Nav>

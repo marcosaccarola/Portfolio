@@ -1,82 +1,70 @@
-@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+/*?______________________________________________NAVBAR  */
 .bar {
   height: 8vh !important;
-  /* position: top !important; */
-  /* font-family: "mulish", sans-serif; */
 }
 @media screen and (max-width: 600px) {
   .bar {
     border-style: solid;
     border-width: 2px;
-    border-color: #7c25ff;
+    border-color: #006cfa;
   }
 }
 .img-avatar {
   max-width: 5vh;
   height: auto;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #7c25ff;
-  /* border-color: #006cfa; */
 }
 .icon-email {
   font-size: 3vh;
   color: #00ed64 !important;
 }
 
+/*?______________________________________________CONTAINER  */
 .con {
   margin-top: 8vh;
-  /* min-height: 76vh !important; */
-  /* margin-right: 1vh; */
   margin-bottom: 8vh;
-  /* margin-left: 1vh; */
 }
 .box {
-  /* margin-top: 16vh !important; */
   min-height: 76vh !important;
-  /* margin-bottom: 8vh; */
-  /* margin-left: 8vh; */
-  /* background-color: #282c34 !important; */
 }
 .box-little {
   min-height: 38vh !important;
 }
 .img-screen {
-  /* margin-top: auto; */
-  /* margin-bottom: 23vh; */
-  /* margin-left: -25vh; */
   height: 80%;
-  /* float: left; */
-  /* height: auto; */
-  /* display: block; */
-  /* justify-content: center; */
-  /* align-items: center; */
 }
+
+/*?______________________________________________BORDERS  */
 .border-blue {
   border-style: solid;
   border-width: 2px;
-  border-color: #7c25ff;
+  border-color: #006cfa;
+}
+.border-flux {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #00ed64;
 }
 
+/*?______________________________________________TEXT  */
 .text-flux {
-  /* color: #7c25ff !important; */
   color: #00ed64 !important;
   font-family: "Roboto Mono", monospace;
   font-size: 1rem;
 }
 .text-violet {
   color: #7c25ff !important;
-  /* color: #00ed64 !important; */
   font-family: "Roboto Mono", monospace;
   font-size: 1rem;
 }
 .text-blue {
   color: #006cfa !important;
-  /* color: #00ed64 !important; */
   font-family: "Roboto Mono", monospace;
   font-size: 1rem;
 }
+
+/*?______________________________________________BG  */
 .bg-flux {
   background-color: #00ed64 !important;
 }
