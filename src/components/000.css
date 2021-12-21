@@ -19,28 +19,34 @@
 
 .con {
   margin-top: 8vh !important;
-  min-height: 76vh !important;
+  /* min-height: 76vh !important; */
   margin-bottom: 8vh;
 }
 .box {
   margin-top: 16vh !important;
-  min-height: 44vh !important;
+  /* min-height: 44vh !important; */
   margin-bottom: 16vh;
   margin-left: 8vh;
   background-color: #282c34 !important;
 }
-.screen {
-  /* margin-top: 23vh; */
+.box-little {
+  min-height: 38vh !important;
+}
+.img-screen {
+  /* margin-top: auto; */
   /* margin-bottom: 23vh; */
   /* margin-left: -25vh; */
-  width: 90%;
+  height: 80%;
+  /* float: left; */
   /* height: auto; */
-  /* display: flex; */
+  /* display: block; */
   /* justify-content: center; */
   /* align-items: center; */
 }
-.box-little {
-  min-height: 38vh;
+.border-blue {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #006cfa;
 }
 
 .text-flux {

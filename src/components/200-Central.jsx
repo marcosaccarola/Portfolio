@@ -6,34 +6,37 @@ const Central=()=>{
 
     return(
             <Container className='bg-dark con'>
-                <Row>
-                    <Col lg={6} className='my-auto'>
-                        <Image src={ha} className='screen' />
+                <Row className='text-blue'>
+                    <Col lg={7} className='box-little'>
+                        <Image src={ha} className='img-fluid my-5' />
                     </Col>
-                    <Col lg={6} className='px-5'>
-                        <Row lg={12} className='text-blue box-little'>
-                            <Col lg={12} className='text-start my-auto'>
-                                name_ <br/><br/>
-                                health advantage
-                            </Col>
-                            <Col lg={12} className='text-start my-auto'>
-                                abstract_<br/><br/>
-                                ha is a platform that connects patients with care workers in few clicks
-                            </Col>
-                        </Row>
-                        <Row xs={12} className='text-blue box-little'>
-                            <Col xs={6} className='text-start my-auto'>
-                                technologies_
-                            </Col>
-                            <Col xs={6} className='text-start my-auto'>
-                                MongoDB<br/>
-                                ExpressJS<br/>
-                                ReactJS<br/>
-                                NodeJS<br/>
-                                Bootstrap 4<br/>
-                            </Col>
-                        </Row>
+                    {/* <Col xs={6} className='box-little row  px-5'>
+                    </Col> */}
+
+                    {/* <Col xs={6} className='box-little row  px-5'>
+                        <Col xs={12} className='text-start my-auto'>
+                        </Col>
+                    </Col> */}
+
+                    <Col className='box-little my-auto px-2'>
+                        <Col xs={12} className='text-start my-5'>
+                            name_ <br/>
+                            health advantage
+                        </Col>
+                        <Col xs={12} className='text-start my-5'>
+                            type_ <br/>
+                            exercise
+                        </Col>
+                        <Col xs={12} className='text-start my-5'>
+                            abstract_<br/>
+                            ha is a platform that connects patients with care workers in few clicks
+                        </Col>
+                        <Col xs={12} className='text-start my-5'>
+                            technologies_<br/>
+                            [ mongoDb, expressJs, reactJs, nodeJs, bootstrap4 ]
+                        </Col>
                     </Col>
+
                 </Row>
             </Container>
     )
