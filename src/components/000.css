@@ -5,6 +5,13 @@
   /* position: top !important; */
   /* font-family: "mulish", sans-serif; */
 }
+@media screen and (max-width: 600px) {
+  .bar {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #7c25ff;
+  }
+}
 .img-avatar {
   max-width: 5vh;
   height: auto;
@@ -21,9 +28,9 @@
 .con {
   margin-top: 8vh;
   /* min-height: 76vh !important; */
-  margin-right: 1vh;
+  /* margin-right: 1vh; */
   margin-bottom: 8vh;
-  margin-left: 1vh;
+  /* margin-left: 1vh; */
 }
 .box {
   /* margin-top: 16vh !important; */
