@@ -36,7 +36,7 @@ const Central=()=>{
                         </Col>
                         <Col xs={12} className='text-start my-5'>
                             <span className='text-blue'>level_</span><br/>
-                            basic ui && functionalities<br/>
+                            basic [ ui && functionalities ]<br/>
                         </Col>
                         <Col xs={12} className='text-start my-5'>
                             <span className='text-blue'>technologies_</span><br/>
