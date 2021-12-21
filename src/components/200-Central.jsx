@@ -12,9 +12,9 @@ const Central=()=>{
             <Container className='bg-dark con'>
                 <Row className='text-flux box'>
 
-                    <Col lg={7} className=' my-auto'>
+                    <Col lg={7} className='my-auto'>
                         <Col xs={12}>
-                            <Image src={ha} className='img-fluid border-blue' />
+                            <Image src={ha} className='img-fluid border-blue mt-3' />
                         </Col>
                         <Col xs={12} className='my-5'>
                             <span className=' border-blue px-3 py-1' onClick={openHA}>url_ (link)</span>                                            
