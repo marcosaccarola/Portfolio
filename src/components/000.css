@@ -21,7 +21,9 @@
 .con {
   margin-top: 8vh;
   /* min-height: 76vh !important; */
+  margin-right: 1vh;
   margin-bottom: 8vh;
+  margin-left: 1vh;
 }
 .box {
   /* margin-top: 16vh !important; */

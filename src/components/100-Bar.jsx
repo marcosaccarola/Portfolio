@@ -11,7 +11,7 @@ const Bar=()=>{
     }
 
     return(
-        <Navbar bg="dark" variant='dark' sticky='top' className='min-vw-100 bar border-blue'>
+        <Navbar bg="dark" variant='dark' sticky='top' className='min-vw-100 bar'>
             <Container>
                 <Navbar.Brand onClick={openGitHub}><Image className='img-avatar' src={Parrot} /></Navbar.Brand>
                 <Nav className="me-auto">
