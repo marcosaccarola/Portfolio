@@ -41,8 +41,8 @@
 }
 
 .text-flux {
-  color: #7c25ff !important;
-  /* color: #00ed64 !important; */
+  /* color: #7c25ff !important; */
+  color: #00ed64 !important;
   font-family: "Roboto Mono", monospace;
   font-size: 22px;
 }

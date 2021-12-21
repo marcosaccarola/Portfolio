@@ -9,6 +9,9 @@ const Bar=()=>{
         <Navbar bg="dark" variant='dark' className='min-vw-100 bar'>
             <Container>
                 <Navbar.Brand><Image className='avatar' src={Marco} /></Navbar.Brand>
+                <Nav className="me-auto">
+                    <Nav.Link className='text-flux'>marco.saccarola.dev@gmail.com</Nav.Link>
+                </Nav>
                 <Nav className="ms-auto">
                     <Nav.Link><AiOutlineMail className='icon-email' /></Nav.Link>
                 </Nav>
