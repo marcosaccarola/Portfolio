@@ -6,11 +6,11 @@ import Panel from './300-Panel'
 const Home=()=>{
 
     return(
-        <>
+        <div className='min-vh-100'>
             <Bar />
             <Central />
             {/* <Panel /> */}
-        </>
+        </div>
     )
 }
 
