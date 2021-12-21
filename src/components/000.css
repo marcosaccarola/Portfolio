@@ -28,13 +28,20 @@
   background-color: #282c34 !important;
 }
 .screen {
-  margin-top: 25vh;
-  margin-bottom: 25vh;
+  margin-top: 23vh;
+  margin-bottom: 23vh;
   /* margin-left: -25vh; */
-  width: 50%;
+  width: 60%;
   height: auto;
+}
+.box-little {
+  height: 38vh;
 }
 
 .text-flux {
   color: #00ed64 !important;
+  font-family: "mulish", sans-serif;
+}
+.bg-flux {
+  background-color: #00ed64 !important;
 }
