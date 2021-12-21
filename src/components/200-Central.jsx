@@ -10,13 +10,29 @@ const Central=()=>{
                     <Col md={6} className=''>
                         <Image src={ha} className='screen' />
                     </Col>
-                    <Col md={6} className='bg-warning'>
-                        <Col md={12} className='text-flux bg-info box-little'>
-                            something
-                        </Col>
-                        <Col md={12} className='text-flux bg-danger box-little'>
-                            something
-                        </Col>
+                    <Col md={6} className=''>
+                        <Row md={12} className='text-flux box-little'>
+                            <Col md={12} className='text-start my-auto'>
+                                name_ health advantage
+                            </Col>
+                            <Col md={12} className='text-start my-auto'>
+                                abstract_<br/><br/>
+                                HA is a platform that connects patients with care workers in few clicks
+                            </Col>
+                        </Row>
+                        <Row md={12} className='text-flux box-little'>
+                            <Col md={6} className='text-start my-auto'>
+                                technologies_
+                            </Col>
+                            <Col md={6} className='text-start my-auto'>
+                                MongoDB<br/>
+                                ExpressJS<br/>
+                                ReactJS<br/>
+                                NodeJS<br/>
+                                Bootstrap 4.6.0<br/>
+                                React-Boostrap
+                            </Col>
+                        </Row>
                     </Col>
                 </Row>
             </Container>
