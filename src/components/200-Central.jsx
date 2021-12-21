@@ -13,7 +13,7 @@ const Central=()=>{
                 <Row className='text-flux box'>
 
                     <Col lg={7} className=''>
-                        <Col xs={12}>
+                        <Col xs={12} className='mt-3'>
                             <Image src={ha} className='img-fluid border-blue' />
                         </Col>
                         <Col xs={12} className='my-5'>
