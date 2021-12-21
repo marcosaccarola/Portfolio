@@ -20,6 +20,20 @@
   height: 76vh !important;
   margin-bottom: 8vh;
 }
+.box {
+  margin-top: 16vh !important;
+  height: 44vh !important;
+  margin-bottom: 16vh;
+  margin-left: 8vh;
+  background-color: #282c34 !important;
+}
+.screen {
+  margin-top: 25vh;
+  margin-bottom: 25vh;
+  /* margin-left: -25vh; */
+  width: 50%;
+  height: auto;
+}
 
 .text-flux {
   color: #00ed64 !important;
