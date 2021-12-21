@@ -19,38 +19,41 @@
 
 .con {
   margin-top: 8vh !important;
-  height: 76vh !important;
+  min-height: 76vh !important;
   margin-bottom: 8vh;
 }
 .box {
   margin-top: 16vh !important;
-  height: 44vh !important;
+  min-height: 44vh !important;
   margin-bottom: 16vh;
   margin-left: 8vh;
   background-color: #282c34 !important;
 }
 .screen {
-  margin-top: 23vh;
-  margin-bottom: 23vh;
+  /* margin-top: 23vh; */
+  /* margin-bottom: 23vh; */
   /* margin-left: -25vh; */
-  width: 60%;
-  height: auto;
+  width: 90%;
+  /* height: auto; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
 }
 .box-little {
-  height: 38vh;
+  min-height: 38vh;
 }
 
 .text-flux {
   /* color: #7c25ff !important; */
   color: #00ed64 !important;
   font-family: "Roboto Mono", monospace;
-  font-size: 22px;
+  font-size: 1rem;
 }
 .text-blue {
   color: #006cfa !important;
   /* color: #00ed64 !important; */
   font-family: "Roboto Mono", monospace;
-  font-size: 22px;
+  font-size: 1rem;
 }
 .bg-flux {
   background-color: #00ed64 !important;

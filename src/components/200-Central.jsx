@@ -7,25 +7,25 @@ const Central=()=>{
     return(
             <Container className='bg-dark con'>
                 <Row>
-                    <Col md={6} className=''>
+                    <Col lg={6} className='my-auto'>
                         <Image src={ha} className='screen' />
                     </Col>
-                    <Col md={6} className=''>
-                        <Row md={12} className='text-blue box-little'>
-                            <Col md={12} className='text-start my-auto'>
+                    <Col lg={6} className='px-5'>
+                        <Row lg={12} className='text-blue box-little'>
+                            <Col lg={12} className='text-start my-auto'>
                                 name_ <br/><br/>
                                 health advantage
                             </Col>
-                            <Col md={12} className='text-start my-auto'>
+                            <Col lg={12} className='text-start my-auto'>
                                 abstract_<br/><br/>
                                 ha is a platform that connects patients with care workers in few clicks
                             </Col>
                         </Row>
-                        <Row md={12} className='text-blue box-little'>
-                            <Col md={6} className='text-start my-auto'>
+                        <Row xs={12} className='text-blue box-little'>
+                            <Col xs={6} className='text-start my-auto'>
                                 technologies_
                             </Col>
-                            <Col md={6} className='text-start my-auto'>
+                            <Col xs={6} className='text-start my-auto'>
                                 MongoDB<br/>
                                 ExpressJS<br/>
                                 ReactJS<br/>
