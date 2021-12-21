@@ -1,8 +1,8 @@
 import { Container, Image, Nav, Navbar } from 'react-bootstrap'
 import './000.css'
 import { AiOutlineMail } from 'react-icons/ai';
-import Marco from '../assets/Marco-Saccarola.jpg'
-import Parrot from '../assets/parrot.png'
+// import Marco from '../assets/Marco-Saccarola.jpg'
+// import Parrot from '../assets/parrot.png'
 import Gato from '../assets/gato.webp'
 
 const Bar=()=>{
