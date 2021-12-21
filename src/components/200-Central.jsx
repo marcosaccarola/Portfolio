@@ -4,9 +4,6 @@ import ha from '../assets/ha.png'
 
 const Central=()=>{
     const openHA=()=>{
-        // alert('under development')
-        // console.log('open window')
-        // e.preventDefault()
         const URL='https://health-advantage.vercel.app/'
         window.open(URL, '_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes')
     }

@@ -4,13 +4,17 @@ import { AiOutlineMail } from 'react-icons/ai';
 import Marco from '../assets/Marco-Saccarola.jpg'
 
 const Bar=()=>{
+    const openGitHub=()=>{
+        const URL='https://github.com/marcosaccarola'
+        window.open(URL, '_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes')
+    }
 
     return(
         <Navbar bg="dark" variant='dark' sticky='top' className='min-vw-100 bar'>
             <Container>
-                <Navbar.Brand><Image className='avatar' src={Marco} /></Navbar.Brand>
+                <Navbar.Brand onClick={openGitHub}><Image className='avatar' src={Marco} /></Navbar.Brand>
                 <Nav className="me-auto">
-                    <Nav.Link className='text-flux'>marco.saccarola</Nav.Link>
+                    <Nav.Link onClick={openGitHub} className='text-flux'>marco.saccarola</Nav.Link>
                 </Nav>
                 <Nav className="ms-auto">
                     <Nav.Link href='mailto:marco.saccarola.dev@gmail.com'><AiOutlineMail className='icon-email' /></Nav.Link>
