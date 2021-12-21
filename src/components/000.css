@@ -19,13 +19,13 @@
 }
 
 .con {
-  margin-top: 12vh;
+  margin-top: 8vh;
   /* min-height: 76vh !important; */
-  margin-bottom: 12vh;
+  margin-bottom: 8vh;
 }
 .box {
   /* margin-top: 16vh !important; */
-  min-height: 68vh !important;
+  min-height: 76vh !important;
   /* margin-bottom: 8vh; */
   /* margin-left: 8vh; */
   /* background-color: #282c34 !important; */
