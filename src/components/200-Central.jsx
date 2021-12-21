@@ -8,7 +8,7 @@ const Central=()=>{
             <Container className='bg-dark con'>
                 <Row className='text-blue'>
                     <Col lg={7} className='box-little'>
-                        <Image src={ha} className='img-fluid border-blue my-5' />
+                        <Image src={ha} className='img-fluid border-blue my-3' />
                     </Col>
                     {/* <Col xs={6} className='box-little row  px-5'>
                     </Col> */}
@@ -18,8 +18,8 @@ const Central=()=>{
                         </Col>
                     </Col> */}
 
-                    <Col className='box-little my-auto px-2'>
-                        <Col xs={12} className='text-start my-5'>
+                    <Col className='box-little my-auto px-3'>
+                        <Col xs={12} className='text-start mb-5'>
                             name_ <br/>
                             health advantage
                         </Col>
