@@ -1,5 +1,6 @@
 import { Col, Container, Image, Row } from 'react-bootstrap'
 import './000.css'
+import Myself from './205-Myself'
 import HealthAdvantage from './210-HealthAdvantage'
 
 const Central=({index,setIndex})=>{
@@ -8,11 +9,13 @@ const Central=({index,setIndex})=>{
             <Container className='bg-dark con'>
                 <Row className='text-flux box'>
                     {
-                    index=='HealthAdvantage'&&    
-                    <HealthAdvantage />
+                        index=='Myself'&&
+                        <Myself />
                     }
-
-
+                    {
+                        index=='HealthAdvantage'&&    
+                        <HealthAdvantage />
+                    }
                 </Row>
             </Container>
     )

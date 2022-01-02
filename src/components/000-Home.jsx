@@ -5,7 +5,7 @@ import Central from './200-Central'
 // import Panel from './300-Panel'
 
 const Home=()=>{
-    const[index,setIndex]=useState('HealthAdvantage')
+    const[index,setIndex]=useState('Myself')
 
     return(
         <div className='min-vh-100'>

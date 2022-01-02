@@ -50,6 +50,11 @@
   font-family: "Roboto Mono", monospace;
   font-size: 1rem;
 }
+.text-ultra-lime {
+  color: #b2ff01 !important;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1rem;
+}
 .text-violet {
   color: #7c25ff !important;
   font-family: "Roboto Mono", monospace;
@@ -59,6 +64,10 @@
   color: #006cfa !important;
   font-family: "Roboto Mono", monospace;
   font-size: 1rem;
+}
+.text-subtitle {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.5rem;
 }
 
 /*?______________________________________________BG  */
