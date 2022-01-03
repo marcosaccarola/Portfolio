@@ -8,7 +8,7 @@ const Central=({index,setIndex})=>{
 
     return(
             <Container className='bg-dark con'>
-                <Row className='text-flux box'>
+                
                     {
                         index=='Menu'&&
                         <Menu />
@@ -21,7 +21,7 @@ const Central=({index,setIndex})=>{
                         index=='HealthAdvantage'&&    
                         <HealthAdvantage />
                     }
-                </Row>
+                
             </Container>
     )
 }
