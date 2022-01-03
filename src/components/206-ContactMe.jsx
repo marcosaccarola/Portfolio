@@ -12,14 +12,15 @@ const ContactMe=({setIndex})=>{
                     marco.saccarola.dev@gmail.com
                 </Row>
                 <Row className='mx-3 py-3 mt-5' >
-                    <Col md={6}>
+                    <Col md={5}>
                         <Row className='me-auto py-3 border-blue justify-content-center'>
                             <a href='mailto:marco.saccarola.dev@gmail.com' className='text-ultra-lime'>
-                                click here to open your email provider
+                                Send email
                             </a>
                         </Row>
                     </Col>
-                    <Col md={6}>
+                    <Col md={2}></Col>
+                    <Col md={5}>
                         <Row className='ms-auto py-3 border-blue justify-content-center' onClick={()=>setIndex('Menu')}>
                             Back home
                         </Row>
