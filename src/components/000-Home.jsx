@@ -5,7 +5,7 @@ import Central from './200-Central'
 // import Panel from './300-Panel'
 
 const Home=()=>{
-    const[index,setIndex]=useState('Menu')
+    const[index,setIndex]=useState('AboutMe')
 
     return(
         <div className='min-vh-100'>
