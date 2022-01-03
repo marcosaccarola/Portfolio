@@ -1,6 +1,6 @@
 import { Col, Row } from "react-bootstrap"
 
-const Myself=()=>{
+const Myself=({setIndex})=>{
 
     return(
         <Row className='text-ultra-lime '>
@@ -11,7 +11,7 @@ const Myself=()=>{
                         <Row>Place:</Row>
                     </Col>
                     <Col sm={10}>
-                        <Row>Venice, Italy</Row>
+                        <Row className='text-start'>Venice, Italy</Row>
                     </Col>
                 </Row>
                 <Row className='mx-3 py-3'>
@@ -48,10 +48,14 @@ const Myself=()=>{
                 </Row>
                 <Row className='mx-3 py-3 mt-5' >
                     <Col md={6}>
-                        <Row className='me-5 py-3 border-blue justify-content-center'>Contact me</Row>
+                        <Row className='me-5 py-3 border-blue justify-content-center' onClick={()=>setIndex('ContactMe')}>
+                            Contact me
+                        </Row>
                     </Col>
                     <Col md={6}>
-                        <Row className='ms-5 py-3 border-blue justify-content-center'>Back home</Row>
+                        <Row className='ms-5 py-3 border-blue justify-content-center' onClick={()=>setIndex('Menu')}>
+                            Back home
+                        </Row>
                     </Col>
                 </Row>
             </Col>

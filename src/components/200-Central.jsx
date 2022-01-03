@@ -16,15 +16,15 @@ const Central=({index,setIndex})=>{
                     }
                     {
                         index=='AboutMe'&&
-                        <AboutMe />
+                        <AboutMe setIndex={setIndex} />
                     }
                     {
                         index=='ContactMe'&&
-                        <ContactMe />
+                        <ContactMe setIndex={setIndex} />
                     }
                     {
                         index=='HealthAdvantage'&&    
-                        <HealthAdvantage />
+                        <HealthAdvantage setIndex={setIndex} />
                     }
                 
             </Container>
