@@ -1,6 +1,6 @@
 import { Container, Image, Nav, Navbar } from 'react-bootstrap'
 import './000.css'
-import { AiOutlineMail,AiOutlineHome } from 'react-icons/ai';
+import { AiOutlineUser,AiOutlineHome,AiOutlineMail } from 'react-icons/ai';
 // import Gato from '../assets/gato.webp'
 
 const Bar=({setIndex})=>{
@@ -17,6 +17,9 @@ const Bar=({setIndex})=>{
                     <Nav.Link onClick={openGitHub} className='text-flux'>marco.saccarola</Nav.Link>
                 </Nav> */}
                 <Nav className="me-auto">
+                    <Nav.Link onClick={()=>setIndex('AboutMe')}><AiOutlineUser className='icon-email' /></Nav.Link>
+                </Nav>
+                <Nav className="mx-auto">
                     <Nav.Link onClick={()=>setIndex('Menu')}><AiOutlineHome className='icon-email' /></Nav.Link>
                 </Nav>
                 <Nav className="ms-auto">

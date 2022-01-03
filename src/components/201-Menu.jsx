@@ -9,7 +9,7 @@ const Menu=({setIndex})=>{
     }
 
     return(
-        <Row className='text-ultra-lime box align-content-start'>
+        <Row className='text-flux box align-content-start'>
 
             <Col md={12}>
                 <Row className='mx-3 py-3 my-3 justify-content-center border-blue' onClick={()=>setIndex('AboutMe')}>
@@ -18,12 +18,12 @@ const Menu=({setIndex})=>{
             </Col>
             <Col md={6}>
                 <Row className='mx-3 py-3 my-3 justify-content-center border-blue' onClick={()=>setIndex('AboutMe')}>
-                    about me
+                    About me
                 </Row>
             </Col>
             <Col md={6}>
                 <Row className='mx-3 py-3 my-3 justify-content-center border-blue' onClick={()=>setIndex('ContactMe')}>
-                    contact me
+                    Contact me
                 </Row>
             </Col>
 

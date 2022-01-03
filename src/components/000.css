@@ -85,6 +85,9 @@
 }
 
 /*?______________________________________________LINKS */
+a {
+  color: #00ed64;
+}
 a:link {
   text-decoration: none;
 }
@@ -92,8 +95,9 @@ a:visited {
   text-decoration: none;
 }
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: #b2ff01;
 }
 a:active {
-  text-decoration: underline;
+  text-decoration: none;
 }

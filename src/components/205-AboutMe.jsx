@@ -3,7 +3,7 @@ import { Col, Row } from "react-bootstrap"
 const Myself=({setIndex})=>{
 
     return(
-        <Row className='text-ultra-lime '>
+        <Row className='text-flux'>
             <Col className='mx-4'>
                 <Row className='mx-3 py-3 my-3 justify-content-center border-blue'><span>Marco Saccarola MERN developer</span></Row>
                 <Row className='mx-3 py-3 mt-5'>
@@ -11,7 +11,7 @@ const Myself=({setIndex})=>{
                         <Row>Place:</Row>
                     </Col>
                     <Col sm={10}>
-                        <Row className='text-start'>Venice, Italy</Row>
+                        <Row className='text-start text-ultra-lime'>Venice, Italy</Row>
                     </Col>
                 </Row>
                 <Row className='mx-3 py-3'>
@@ -19,7 +19,7 @@ const Myself=({setIndex})=>{
                         <Row>Languages:</Row>
                     </Col>
                     <Col sm={10}>
-                        <Row className='text-start'>Javascript, Typescript</Row>
+                        <Row className='text-start text-ultra-lime'>Javascript, Typescript</Row>
                     </Col>
                 </Row>
                 <Row className='mx-3 py-3'>
@@ -27,7 +27,7 @@ const Myself=({setIndex})=>{
                         <Row>Front-end:</Row>
                     </Col>
                     <Col sm={10}>
-                        <Row className='text-start'>HTML5, CSS3, Bootstrap 4&5, Flexbox, React, React-router-dom, Redux, Redux-thunk, Socket.io</Row>
+                        <Row className='text-start text-ultra-lime'>HTML5, CSS3, Bootstrap 4&5, Flexbox, React, React-router-dom, Redux, Redux-thunk, Socket.io</Row>
                     </Col>
                 </Row>
                 <Row className='mx-3 py-3'>
@@ -35,7 +35,7 @@ const Myself=({setIndex})=>{
                         <Row>Back-end:</Row>
                     </Col>
                     <Col sm={10}>
-                        <Row className='text-start'>Express, Node, Cors, Heroku, Vercel, Cloudinary, Multer</Row>
+                        <Row className='text-start text-ultra-lime'>Express, Node, Cors, Heroku, Vercel, Cloudinary, Multer</Row>
                     </Col>
                 </Row>
                 <Row className='mx-3 py-3'>
@@ -43,19 +43,19 @@ const Myself=({setIndex})=>{
                         <Row>DB:</Row>
                     </Col>
                     <Col sm={10}>
-                        <Row className='text-start'>MongoDB, Mongoose, PostgreSQL, Sequelize</Row>
+                        <Row className='text-start text-ultra-lime'>MongoDB, Mongoose, PostgreSQL, Sequelize</Row>
                     </Col>
                 </Row>
                 <Row className='mx-3 py-3 mt-5' >
                     <Col md={5}>
-                        <Row className='my-3 py-3 border-blue justify-content-center' onClick={()=>setIndex('ContactMe')}>
-                            Contact me
+                        <Row className='my-3 py-3 border-blue justify-content-center' onClick={()=>setIndex('Menu')}>
+                            Back home
                         </Row>
                     </Col>
                     <Col md={2}></Col>
                     <Col md={5}>
-                        <Row className='my-3 py-3 border-blue justify-content-center' onClick={()=>setIndex('Menu')}>
-                            Back home
+                        <Row className='my-3 py-3 border-blue justify-content-center' onClick={()=>setIndex('ContactMe')}>
+                            Contact me
                         </Row>
                     </Col>
                 </Row>
