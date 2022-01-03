@@ -48,12 +48,12 @@ const Myself=({setIndex})=>{
                 </Row>
                 <Row className='mx-3 py-3 mt-5' >
                     <Col md={6}>
-                        <Row className='me-5 py-3 border-blue justify-content-center' onClick={()=>setIndex('ContactMe')}>
+                        <Row className='me-auto py-3 border-blue justify-content-center' onClick={()=>setIndex('ContactMe')}>
                             Contact me
                         </Row>
                     </Col>
                     <Col md={6}>
-                        <Row className='ms-5 py-3 border-blue justify-content-center' onClick={()=>setIndex('Menu')}>
+                        <Row className='ms-auto py-3 border-blue justify-content-center' onClick={()=>setIndex('Menu')}>
                             Back home
                         </Row>
                     </Col>
