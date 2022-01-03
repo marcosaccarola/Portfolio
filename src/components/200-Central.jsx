@@ -1,7 +1,8 @@
 import { Col, Container, Image, Row } from 'react-bootstrap'
 import './000.css'
 import Menu from './201-Menu'
-import Myself from './205-Myself'
+import AboutMe from './205-AboutMe'
+import ContactMe from './206-ContactMe'
 import HealthAdvantage from './210-HealthAdvantage'
 
 const Central=({index,setIndex})=>{
@@ -11,11 +12,15 @@ const Central=({index,setIndex})=>{
                 
                     {
                         index=='Menu'&&
-                        <Menu />
+                        <Menu setIndex={setIndex} />
                     }
                     {
-                        index=='Myself'&&
-                        <Myself />
+                        index=='AboutMe'&&
+                        <AboutMe />
+                    }
+                    {
+                        index=='ContactMe'&&
+                        <ContactMe />
                     }
                     {
                         index=='HealthAdvantage'&&    
