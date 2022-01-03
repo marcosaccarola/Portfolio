@@ -9,7 +9,7 @@ const Home=()=>{
 
     return(
         <div className='min-vh-100'>
-            <Bar />
+            <Bar setIndex={setIndex} />
             <Central index={index} setIndex={setIndex} />
             {/* <Panel /> */}
         </div>
