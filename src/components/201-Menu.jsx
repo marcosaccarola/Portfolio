@@ -12,11 +12,11 @@ const Menu=({setIndex})=>{
         <Row className='text-flux box align-content-start'>
 
             <Col md={12}>
-                <Row className='mx-3 py-3 my-3 justify-content-center border-blue' onClick={()=>setIndex('AboutMe')}>
+                <Row className='mx-3 py-3 my-3 justify-content-center border-flux' onClick={()=>setIndex('AboutMe')}>
                     Marco Saccarola MERN developer
                 </Row>
             </Col>
-            <Col md={6}>
+            {/* <Col md={6}>
                 <Row className='mx-3 py-3 my-3 justify-content-center border-blue' onClick={()=>setIndex('AboutMe')}>
                     About me
                 </Row>
@@ -25,7 +25,7 @@ const Menu=({setIndex})=>{
                 <Row className='mx-3 py-3 my-3 justify-content-center border-blue' onClick={()=>setIndex('ContactMe')}>
                     Contact me
                 </Row>
-            </Col>
+            </Col> */}
 
             <Col md={12}>
                 <Row className='my-2'>

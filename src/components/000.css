@@ -15,9 +15,38 @@
   max-width: 5vh;
   height: auto;
 }
+@keyframes color-changer {
+  0% {
+    color: #006cfa;
+  }
+  1% {
+    color: #006cfa;
+  }
+  1.1% {
+    color: #b2ff01;
+  }
+  1.3% {
+    color: #006cfa;
+  }
+  50% {
+    color: #7c25ff;
+  }
+  50.1% {
+    color: #b2ff01;
+  }
+  50.3% {
+    color: #7c25ff;
+  }
+  100% {
+    color: #006cfa;
+  }
+}
 .icon-email {
-  font-size: 3vh;
-  color: #00ed64 !important;
+  font-size: 4vh;
+  /* color: #006cfa !important; */
+  animation-name: color-changer;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
 }
 
 /*?______________________________________________CONTAINER  */

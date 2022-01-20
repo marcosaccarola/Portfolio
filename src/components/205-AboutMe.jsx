@@ -5,7 +5,7 @@ const Myself=({setIndex})=>{
     return(
         <Row className='text-flux'>
             <Col className='mx-4'>
-                <Row className='mx-3 py-3 my-3 justify-content-center border-blue'><span>Marco Saccarola MERN developer</span></Row>
+                <Row className='mx-3 py-3 my-3 justify-content-center border-flux'><span>Marco Saccarola MERN developer</span></Row>
                 <Row className='mx-3 py-3 mt-5'>
                     <Col sm={2}>
                         <Row>Place:</Row>
@@ -48,13 +48,13 @@ const Myself=({setIndex})=>{
                 </Row>
                 <Row className='mx-3 py-3 mt-5' >
                     <Col md={5}>
-                        <Row className='my-3 py-3 border-blue justify-content-center' onClick={()=>setIndex('Menu')}>
+                        <Row className='my-3 py-3 border-flux justify-content-center' onClick={()=>setIndex('Menu')}>
                             Back home
                         </Row>
                     </Col>
                     <Col md={2}></Col>
                     <Col md={5}>
-                        <Row className='my-3 py-3 border-blue justify-content-center' onClick={()=>setIndex('ContactMe')}>
+                        <Row className='my-3 py-3 border-flux justify-content-center' onClick={()=>setIndex('ContactMe')}>
                             Contact me
                         </Row>
                     </Col>

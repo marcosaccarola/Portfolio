@@ -13,8 +13,22 @@
   }
 }
 
+@keyframes bg-changer {
+  0% {
+    background-color: #006cfa;
+  }
+  50% {
+    background-color: #7c25ff;
+  }
+  100% {
+    background-color: #006cfa;
+  }
+}
 .App-header {
   background-color: #006cfa;
+  animation-name: bg-changer;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
   /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
