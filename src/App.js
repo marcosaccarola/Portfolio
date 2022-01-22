@@ -1,13 +1,19 @@
-import './App.css';
+// import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Home from './components/000-Home';
+// import Home from './components/000-Home';
+// import Bar from './components/500-Bar';
+import Body from './components/600-Body';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Home />
-      </header>
+    <div className="bg-black min-vh-100 text-light">
+    {/* <div className="App"> */}
+      {/* <header className="App-header"> */}
+        {/* <Home /> */}
+      {/* </header> */}
+
+      {/* <Bar /> */}
+      <Body />
     </div>
   );
 }
