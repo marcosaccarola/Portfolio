@@ -12,13 +12,13 @@ const Body=()=>{
                     <Pills />
                 </Col>
 
-                <Col md={4}>
+                <Col md={4} className='mt-5'>
                     <img
                         alt=""
                         src={avatar}
                         // width="500"
                         // height="500"
-                        className="d-inline-block align-top mt-3 rounded-circle img-fluid"
+                        className="d-inline-block align-top rounded-circle img-fluid"
                     />
                 </Col>
             </Row>
