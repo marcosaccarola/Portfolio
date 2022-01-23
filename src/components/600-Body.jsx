@@ -1,5 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap"
 import avatar from '../assets/linkedin-profilo.jpg'
+import Pills from "./700-Pills"
 
 const Body=()=>{
 
@@ -7,10 +8,10 @@ const Body=()=>{
         <>
         <Container fluid className=' text-black'>
             <Row>
-                <Col md={4}>
-                    CIAO
+                <Col md={8}>
+                    <Pills />
                 </Col>
-                <Col md={4}>CIAO</Col>
+
                 <Col md={4}>
                     <img
                         alt=""
