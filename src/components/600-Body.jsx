@@ -1,15 +1,20 @@
+import './999-style.css'
 import { Col, Container, Row } from "react-bootstrap"
 import avatar from '../assets/linkedin-profilo.jpg'
+import Name from "./690-Name"
 import Pills from "./700-Pills"
 
 const Body=()=>{
 
     return(
         <>
-        <Container fluid className=' text-black'>
+        <Container fluid className=''>
+
+
             <Row>
                 <Col md={8}>
                     <Pills />
+                    <Name />
                 </Col>
 
                 <Col md={4} className='mt-5'>
