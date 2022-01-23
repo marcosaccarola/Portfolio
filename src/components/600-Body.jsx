@@ -1,4 +1,4 @@
-import './999-style.css'
+import './999-style.scss'
 import { Col, Container, Row } from "react-bootstrap"
 import avatar from '../assets/linkedin-profilo.jpg'
 import Name from "./690-Name"
@@ -13,7 +13,7 @@ const Body=()=>{
 
             <Row>
                 <Col md={8}>
-                    <Pills />
+                    {/* <Pills /> */}
                     <Name />
                 </Col>
 
