@@ -13,8 +13,9 @@ const Body=()=>{
 
             <Row>
                 <Col md={8}>
-                    {/* <Pills /> */}
+                    
                     <Name />
+                    <Pills />
                 </Col>
 
                 <Col md={4} className='mt-5'>

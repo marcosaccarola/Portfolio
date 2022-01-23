@@ -1,3 +1,44 @@
 .btn-dark {
   background-color: black;
 }
+
+.bg-animation {
+  background: url(https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif);
+  animation-name: color-changer;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+@keyframes color-changer {
+  0% {
+    background-color: #000;
+  }
+  50% {
+    background-color: #000;
+  }
+  75% {
+    background-color: #72727200;
+  }
+  100% {
+    background-color: #000;
+  }
+}
+
+.txt-animation {
+  animation-name: title-changer;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+@keyframes title-changer {
+  0% {
+    color: #f8f9fa;
+  }
+  50% {
+    color: #f8f9fa;
+  }
+  75% {
+    color: #000;
+  }
+  100% {
+    color: #f8f9fa;
+  }
+}
