@@ -59,18 +59,19 @@ h1 {
 .title {
   &:nth-child(1) {
     color: $red;
-    font-size: 90px;
-    line-height: 72px;
+    font-size: 100px;
+    line-height: 80px;
   }
   &:nth-child(2) {
     color: $green;
     font-size: 80px;
-    line-height: 62px;
+    line-height: 60px;
   }
   &:nth-child(3) {
     color: $yellow;
     font-size: 60px;
     line-height: 52px;
+    transform: translateX(-60%) rotate(10deg);
   }
 }
 .github {
@@ -116,6 +117,10 @@ h1 {
 .img-fluid-avatar {
   max-width: 80%;
   height: 80%;
+}
+.img-fluid-github {
+  max-width: 70%;
+  height: 70%;
 }
 
 //? _____________________________________________GRID OF PILLS

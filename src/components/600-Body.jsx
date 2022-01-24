@@ -1,6 +1,6 @@
 import './999-style.scss'
 import { Col, Container, Row } from "react-bootstrap"
-import avatar from '../assets/linkedin-profilo.jpg'
+import avatar from '../assets/linkedin-profilo-500.png'
 import Name from "./690-Name"
 import Pills from "./700-Pills"
 // import gitgif from 'https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif'
@@ -14,38 +14,40 @@ const Body=()=>{
         <>
         <Container fluid className=''>
 
-
-            <Row>
-                <Col md={7}>
-                    <Name />
-                </Col>
-                <Col md={5} className='mt-5 d-flex justify-content-center'>
-                    <img
-                        alt=""
-                        src={avatar}
-                        // width="60%"
-                        // height="60%"
-                        className="align-top rounded-circle img-fluid-avatar"
-                    />
-                </Col>
-            </Row>
+            <Container className='w-75'>
+                <Row>
+                    <Col md={4}>
+                        <Name />
+                    </Col>
+                    <Col md={8} className='mt-5 d-flex justify-content-center align-items-center'>
+                        <img
+                            alt=""
+                            src={avatar}
+                            // width="60%"
+                            // height="60%"
+                            className="rounded-circle img-fluid"
+                        />
+                    </Col>
+                </Row>
+            </Container>
+        
 
             <Container>
                 <Pills />
             </Container>
 
-            <Container className=''>
+            <Container className='w-75'>
                 <Row>
-                    <Col md={4} className='mt-5 d-flex justify-content-center'>
+                    <Col md={8} className='mt-5 d-flex justify-content-center align-items-center'>
                         <img
                             alt=""
                             src='https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif'
                             // width="60%"
                             // height="60%"
-                            className="align-top rounded-circle img-fluid"
+                            className="rounded-circle img-fluid"
                         />
                     </Col>
-                    <Col md={8}>
+                    <Col md={4}>
                         <GitHubCTA />
                     </Col>
                 </Row>

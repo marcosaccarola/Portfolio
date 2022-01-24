@@ -9,7 +9,7 @@ const Name=()=>{
                 <Col md={12} className='text-end'>
                     {/* <Button className='rounded-pill px-5 pb-2 bg-black border-0'> */}
 
-                    <section class="title-container my-5 mx-auto">
+                    <section class="title-container my-5 ms-5">
                         <h1>
                             <span class="title">Marco Saccarola</span>
                             <span class="title">MERN Developer</span>
