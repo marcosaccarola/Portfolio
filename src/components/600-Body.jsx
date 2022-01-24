@@ -38,7 +38,7 @@ const Body=()=>{
 
             <Container className='w-75'>
                 <Row>
-                    <Col md={8} className='mt-5 d-flex justify-content-center align-items-center'>
+                    <Col md={7} className='mt-5 d-flex justify-content-center align-items-center'>
                         <img
                             alt=""
                             src='https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif'
@@ -47,7 +47,7 @@ const Body=()=>{
                             className="rounded-circle img-fluid"
                         />
                     </Col>
-                    <Col md={4}>
+                    <Col md={4} className=''>
                         <GitHubCTA />
                     </Col>
                 </Row>
