@@ -3,8 +3,10 @@ import { Col, Container, Row } from "react-bootstrap"
 import avatar from '../assets/linkedin-profilo.jpg'
 import Name from "./690-Name"
 import Pills from "./700-Pills"
+// import gitgif from 'https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif'
 import {MdAlternateEmail} from 'react-icons/md'
 import {BsLinkedin,BsGithub} from 'react-icons/bs'
+import GitHubCTA from './800-GitHubCTA'
 
 const Body=()=>{
 
@@ -23,13 +25,30 @@ const Body=()=>{
                         src={avatar}
                         // width="60%"
                         // height="60%"
-                        className="align-top rounded-circle img-fluid"
+                        className="align-top rounded-circle img-fluid-avatar"
                     />
                 </Col>
             </Row>
 
             <Container>
                 <Pills />
+            </Container>
+
+            <Container className=''>
+                <Row>
+                    <Col md={4} className='mt-5 d-flex justify-content-center'>
+                        <img
+                            alt=""
+                            src='https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif'
+                            // width="60%"
+                            // height="60%"
+                            className="align-top rounded-circle img-fluid"
+                        />
+                    </Col>
+                    <Col md={8}>
+                        <GitHubCTA />
+                    </Col>
+                </Row>
             </Container>
 
             <Container className='d-flex foot-icons bg-black w-75 mx-auto justify-content-end px-0 my-5'>
