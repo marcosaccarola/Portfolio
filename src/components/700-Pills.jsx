@@ -4,9 +4,9 @@ import { Button, Col, Container, Row } from "react-bootstrap"
 const Pills=()=>{
 
     return(
-        <Container fluid className='mt-5'>
+        <Container fluid className='my-5'>
             <Row className=''>
-                <Col md={3} sm={6} className='d-flex flex-column align-items-end'>
+                <Col md={3} xs={6} className='d-flex flex-column align-items-end'>
                     <Button className='btn-dark border-0 rounded my-1 mx-1 btn-lg rounded-pill btn-yellow'>Javascript</Button>
                     <Button className='btn-dark border-0 rounded my-1 mx-1 btn-lg rounded-pill btn-green'>Typescript</Button>
                     <Button className='btn-dark border-0 rounded my-1 mx-1 btn-lg rounded-pill btn-red'>HTML5</Button>
@@ -15,7 +15,7 @@ const Pills=()=>{
                     <Button className='btn-dark border-0 rounded my-1 mx-1 btn-lg rounded-pill btn-green'>GitHub</Button>
                     <Button className='btn-dark border-0 rounded my-1 mx-1 btn-lg rounded-pill btn-red'>Bootstrap</Button>
                 </Col>
-                <Col md={3} sm={6} className='d-flex flex-column align-items-start'>
+                <Col md={3} xs={6} className='d-flex flex-column align-items-start'>
                     <Button className='btn-dark border-0 rounded my-1 mx-1 btn-lg rounded-pill btn-green'>React</Button>
                     <Button className='btn-dark border-0 rounded my-1 mx-1 btn-lg rounded-pill btn-yellow'>Hooks</Button>
                     <Button className='btn-dark border-0 rounded my-1 mx-1 btn-lg rounded-pill btn-red'>Redux</Button>
@@ -24,7 +24,7 @@ const Pills=()=>{
                     <Button className='btn-dark border-0 rounded my-1 mx-1 btn-lg rounded-pill btn-red'>Postman</Button>
                     <Button className='btn-dark border-0 rounded my-1 mx-1 btn-lg rounded-pill btn-green'>Vercel</Button>
                 </Col>
-                <Col md={3} sm={6} className='d-flex flex-column align-items-end container-fluid'>
+                <Col md={3} xs={6} className='d-flex flex-column align-items-end container-fluid'>
                     <Button className='btn-dark border-0 rounded my-1 mx-1 btn-lg rounded-pill btn-green'>SQL</Button>
                     <Button className='btn-dark border-0 rounded my-1 mx-1 btn-lg rounded-pill btn-red'>NoSQL</Button>
                     <Button className='btn-dark border-0 rounded my-1 mx-1 btn-lg rounded-pill btn-yellow'>Mongoose</Button>
@@ -34,7 +34,7 @@ const Pills=()=>{
                     <Button className='btn-dark border-0 rounded my-1 mx-1 btn-lg rounded-pill btn-yellow'>Socket.io</Button>
                     <Button className='btn-dark border-0 rounded my-1 mx-1 btn-lg rounded-pill btn-red'>Buffer</Button>
                 </Col>
-                <Col md={3} sm={6} className='d-flex flex-column align-items-start'>
+                <Col md={3} xs={6} className='d-flex flex-column align-items-start'>
                     <Button className='btn-dark border-0 rounded my-1 mx-1 btn-lg rounded-pill btn-yellow'>Node</Button>
                     <Button className='btn-dark border-0 rounded my-1 mx-1 btn-lg rounded-pill btn-red'>Express</Button>
                     <Button className='btn-dark border-0 rounded my-1 mx-1 btn-lg rounded-pill btn-green'>MongoDB</Button>

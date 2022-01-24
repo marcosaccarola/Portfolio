@@ -74,6 +74,12 @@ h1 {
   }
 }
 
+//? _____________________________________________IMAGES
+.img-fluid {
+  max-width: 80%;
+  height: 80%;
+}
+
 //? _____________________________________________GRID OF PILLS
 
 .btn-red {
@@ -91,6 +97,10 @@ h1 {
 .bg-yellow {
   color: black;
   background: $yellow;
+}
+.foot-icons {
+  background: black;
+  color: $yellow;
 }
 
 // .bg-animation {
