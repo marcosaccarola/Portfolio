@@ -13,7 +13,7 @@ const GitHubCTA=()=>{
                         <h1>
                             <span class="github">visit my</span>
                             <span class="github">github profile!</span>
-                            {/* <span class="title">Frontend Backend</span> */}
+                            <span class="title">right now!</span>
                         </h1>
                     </section>
                     {/* </Button> */}
