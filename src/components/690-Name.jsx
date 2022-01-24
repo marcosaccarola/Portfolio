@@ -6,20 +6,19 @@ const Name=()=>{
     return(
         <Container fluid className='my-5'>
             <Row>
-                <Col md={10} className='text-end'>
+                <Col md={12} className='text-end'>
                     {/* <Button className='rounded-pill px-5 pb-2 bg-black border-0'> */}
 
-                    <figure class="text-end">
-                        <blockquote class="blockquote">
-                            <p class='txt-animation' style={{fontSize:"5rem"}}>Marco Saccarola</p>
-                        </blockquote>
-                        <figcaption class="blockquote-footer h1 me-3" style={{fontSize:22}}>
-                            Junior Frontend and Backend <cite title="Source Title">MERN</cite> Developer
-                        </figcaption>
-                    </figure>
+                    <section class="title-container my-5 mx-auto ">
+                        <h1>
+                            <span class="title">Marco Saccarola</span>
+                            <span class="title">MERN Developer</span>
+                            <span class="title">Frontend Backend</span>
+                        </h1>
+                    </section>
                     {/* </Button> */}
                 </Col>
-                <Col md={2}></Col>
+                {/* <Col md={4}></Col> */}
             </Row>
         </Container>
     )

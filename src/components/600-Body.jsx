@@ -12,18 +12,18 @@ const Body=()=>{
 
 
             <Row>
-                <Col md={8}>
+                <Col md={6}>
                     
                     <Name />
-                    <Pills />
+                    {/* <Pills /> */}
                 </Col>
 
-                <Col md={4} className='mt-5'>
+                <Col md={6} className='mt-5 d-flex justify-content-center'>
                     <img
                         alt=""
                         src={avatar}
-                        // width="500"
-                        // height="500"
+                        width="600"
+                        height="600"
                         className="d-inline-block align-top rounded-circle img-fluid"
                     />
                 </Col>
