@@ -15,7 +15,6 @@ const Body=()=>{
                 <Col md={7}>
                     
                     <Name />
-                    {/* <Pills /> */}
                 </Col>
 
                 <Col md={5} className='mt-5 d-flex justify-content-center'>
@@ -28,6 +27,9 @@ const Body=()=>{
                     />
                 </Col>
             </Row>
+            <Container>
+                <Pills />
+            </Container>
         </Container>
         </>
     )
