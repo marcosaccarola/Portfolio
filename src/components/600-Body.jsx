@@ -35,7 +35,7 @@ const Body=()=>{
             <Container className='d-flex text-warning bg-black w-75 mx-auto justify-content-end px-0 my-5'>
                 <MdAlternateEmail className='text-warning me-3' size={25} onClick={()=>window.open('mailto:marco.saccarola.dev@gmail.com')} />
                 <BsLinkedin className='text-warning me-3' size={25} onClick={()=>window.open('https://www.linkedin.com/in/marcosaccarola/')} />
-                <BsGithub className='text-warning' size={25} onClick={()=>window.open('https://github.com/marcosaccarola/hex-to-base64-converter')} />
+                <BsGithub className='text-warning' size={25} onClick={()=>window.open('https://github.com/marcosaccarola')} />
             </Container>
         </Container>
         </>
