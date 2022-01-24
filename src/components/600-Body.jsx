@@ -21,8 +21,8 @@ const Body=()=>{
                     <img
                         alt=""
                         src={avatar}
-                        width="600"
-                        height="600"
+                        width="500"
+                        height="500"
                         className="d-inline-block align-top rounded-circle img-fluid"
                     />
                 </Col>
