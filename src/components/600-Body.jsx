@@ -12,13 +12,13 @@ const Body=()=>{
 
 
             <Row>
-                <Col md={6}>
+                <Col md={7}>
                     
                     <Name />
                     {/* <Pills /> */}
                 </Col>
 
-                <Col md={6} className='mt-5 d-flex justify-content-center'>
+                <Col md={5} className='mt-5 d-flex justify-content-center'>
                     <img
                         alt=""
                         src={avatar}
