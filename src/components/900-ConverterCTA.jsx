@@ -1,19 +1,19 @@
 import {Container,Row,Col, Button} from 'react-bootstrap'
 
 
-const GitHubCTA=()=>{
+const ConverterCTA=()=>{
     
     return(
         <Container fluid className='mb-5 h-25 rounded'>
             <Row>
-                <Col md={12} className='text-end'>
+                <Col md={12} className='mb-4'>
                     {/* <Button className='rounded-pill px-5 pb-2 bg-black border-0'> */}
 
-                    <section class="title-container mb-5 ms-5">
+                    <section class="title-container mb-5 ms-5"  onClick={()=>window.open('https://hex-to-base64-converter.vercel.app/')}>
                         <h1>
-                            <span class="github">taste my</span>
-                            <span class="github">github profile</span>
-                            <span class="title">sweets inside!</span>
+                            <span class="converter"></span>
+                            <span class="converter"></span>
+                            <span class="converter">such a converter!</span>
                         </h1>
                     </section>
                     {/* </Button> */}
@@ -24,4 +24,4 @@ const GitHubCTA=()=>{
     )
 }
 
-export default GitHubCTA
+export default ConverterCTA
