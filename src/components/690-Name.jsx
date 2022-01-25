@@ -4,7 +4,7 @@ import {Container,Row,Col, Button} from 'react-bootstrap'
 const Name=()=>{
     
     return(
-        <Container fluid className='my-5 h-25 rounded'>
+        <Container fluid className='my-5 h-25 rounded text-over-text-fade-title'>
             <Row>
                 <Col md={12} className='text-end'>
                     {/* <Button className='rounded-pill px-5 pb-2 bg-black border-0'> */}

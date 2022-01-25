@@ -4,7 +4,7 @@ import {Container,Row,Col, Button} from 'react-bootstrap'
 const ConverterCTA=()=>{
     
     return(
-        <Container fluid className='mb-5 h-25 rounded'>
+        <Container fluid className='mb-5 h-25 rounded text-over-img-fade'>
             <Row>
                 <Col md={12} className='mb-4'>
                     {/* <Button className='rounded-pill px-5 pb-2 bg-black border-0'> */}
