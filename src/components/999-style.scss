@@ -141,14 +141,14 @@ h1 {
   }
   &:nth-child(2) {
     color: $green;
-    font-size: 100px;
-    line-height: 90px;
+    font-size: 80px;
+    line-height: 60px;
+    transform: translateX(-60%) rotate(-20deg);
   }
   &:nth-child(3) {
-    color: $green;
-    font-size: 60px;
-    line-height: 62px;
-    transform: translateX(-60%) rotate(-20deg);
+    color: $yellow;
+    font-size: 30px;
+    line-height: 20px;
   }
 }
 
@@ -166,7 +166,7 @@ h1 {
 }
 .text-over-img-fade {
   // color: transparent;
-  text-shadow: black 0 0 0.5em;
+  text-shadow: black 0 0 0.3em;
 }
 
 //? _____________________________________________IMAGES

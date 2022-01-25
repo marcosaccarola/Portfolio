@@ -67,14 +67,16 @@ const Body=()=>{
                 <Container className='w-25 converter-cta-text-fade'>
                     <ConverterCTA className='' />
                 </Container>
-                <img
-                    alt=""
-                    src={converter}
-                    // width="60%"
-                    // height="60%"
-                    className="img-fluid rounded"
-                    onClick={()=>window.open('https://hex-to-base64-converter.vercel.app/')}
-                />
+                <Container className=''>
+                    <img
+                        alt=""
+                        src={converter}
+                        // width="60%"
+                        // height="60%"
+                        className="img-fluid rounded"
+                        onClick={()=>window.open('https://hex-to-base64-converter.vercel.app/')}
+                    />
+                </Container>
             </Container>
 
             <Container className='coso'></Container>

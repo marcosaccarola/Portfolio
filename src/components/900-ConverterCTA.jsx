@@ -12,8 +12,8 @@ const ConverterCTA=()=>{
                     <section class="title-container mb-5 ms-5"  onClick={()=>window.open('https://hex-to-base64-converter.vercel.app/')}>
                         <h1>
                             <span class="converter"></span>
-                            <span class="converter"></span>
                             <span class="converter">such a converter!</span>
+                            <span class="converter">wow!</span>
                         </h1>
                     </section>
                     {/* </Button> */}
