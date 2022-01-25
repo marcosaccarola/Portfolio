@@ -13,7 +13,7 @@ const Name=()=>{
                         <h1>
                             <span class="title">Marco Saccarola</span>
                             <span class="title">MERN Developer</span>
-                            {/* <span class="title">Frontend Backend</span> */}
+                            <span class="title">Frontend Backend</span>
                         </h1>
                     </section>
                     {/* </Button> */}

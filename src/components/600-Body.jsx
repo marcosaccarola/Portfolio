@@ -16,10 +16,10 @@ const Body=()=>{
 
             <Container className='w-75'>
                 <Row>
-                    <Col md={4}>
+                    <Col md={4} className=''>
                         <Name />
                     </Col>
-                    <Col md={8} className='mt-5 d-flex justify-content-center align-items-center'>
+                    <Col md={8} className='my-5 d-flex justify-content-center align-items-center'>
                         <img
                             alt=""
                             src={avatar}
@@ -45,6 +45,7 @@ const Body=()=>{
                             // width="60%"
                             // height="60%"
                             className="rounded-circle img-fluid"
+                            onClick={()=>window.open('https://github.com/marcosaccarola')}
                         />
                     </Col>
                     <Col md={4} className=''>
@@ -53,7 +54,7 @@ const Body=()=>{
                 </Row>
             </Container>
 
-            <Container className='d-flex foot-icons bg-black w-75 mx-auto justify-content-end px-0 my-5'>
+            <Container className='d-flex foot-icons bg-black w-75 mx-auto justify-content-end px-0 py-3 my-5'>
                 <MdAlternateEmail className='me-3' size={25} onClick={()=>window.open('mailto:marco.saccarola.dev@gmail.com')} />
                 <BsLinkedin className='me-3' size={25} onClick={()=>window.open('https://www.linkedin.com/in/marcosaccarola/')} />
                 <BsGithub className='' size={25} onClick={()=>window.open('https://github.com/marcosaccarola')} />

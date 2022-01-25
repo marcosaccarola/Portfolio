@@ -71,7 +71,6 @@ h1 {
     color: $yellow;
     font-size: 60px;
     line-height: 52px;
-    transform: translateX(-60%) rotate(10deg);
   }
 }
 .github {
@@ -104,12 +103,13 @@ h1 {
   &:nth-child(2) {
     color: $red;
     font-size: 100px;
-    line-height: 82px;
+    line-height: 90px;
   }
   &:nth-child(3) {
     color: $yellow;
     font-size: 60px;
-    line-height: 52px;
+    line-height: 62px;
+    transform: translateX(-60%) rotate(10deg);
   }
 }
 
@@ -145,6 +145,24 @@ h1 {
   background: black;
   color: $yellow;
 }
+
+//?______________________________________________ BG ANIMATION COLOR
+// @keyframes color-changer {
+//   0% {
+//     background-color: #ffc107;
+//   }
+//   50% {
+//     background-color: #212529;
+//   }
+//   100% {
+//     background-color: #ffc107;
+//   }
+// }
+// .bg-animation {
+//   animation-name: color-changer;
+//   animation-duration: 30s;
+//   animation-iteration-count: infinite;
+// }
 
 // .bg-animation {
 //   background: url(https://media.giphy.com/media/1iNIkQBAwEkUuTpikf/giphy.gif);
