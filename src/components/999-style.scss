@@ -73,6 +73,7 @@ h1 {
     line-height: 52px;
   }
 }
+
 .github {
   transform: translateX(-70%) rotate(10deg);
   display: block;
@@ -80,19 +81,7 @@ h1 {
   top: 10vh;
   left: 50%;
   position: relative;
-
-  // span {
-  //   transform: skew(-10deg);
-  //   display: block;
-  //   float: left;
-  //   text-shadow: $shadow 1px 1px, $shadow 2px 2px, $shadow 3px 3px,
-  //     $shadow 4px 4px, $shadow 5px 5px, $shadow 6px 6px;
-  //   min-width: 10px;
-  //   min-height: 10px;
-  //   position: relative;
-  // }
 }
-
 .github {
   &:nth-child(1) {
     // right: auto;
@@ -112,6 +101,7 @@ h1 {
     transform: translateX(-60%) rotate(10deg);
   }
 }
+
 .converter {
   transform: translateX(-70%) rotate(10deg);
   display: block;
@@ -180,7 +170,7 @@ h1 {
     color: $red;
     font-size: 120px;
     top: 18vh;
-    left: 15vw;
+    left: 14vw;
     line-height: 100px;
     font-weight: 700;
   }
@@ -189,6 +179,7 @@ h1 {
     font-size: 80px;
     line-height: 60px;
     top: -5vh;
+    left: 10vh;
     transform: translateX(-60%) rotate(-20deg);
   }
   &:nth-child(3) {
@@ -196,13 +187,44 @@ h1 {
     font-size: 140px;
     line-height: 20px;
     top: 15vh;
-    left: -20%;
+    left: -30%;
+    transform: translateX(-60%) rotate(10deg);
+  }
+}
+
+.linkedin {
+  transform: translateX(-50%) rotate(-10deg);
+  display: block;
+  float: left;
+  top: 10vh;
+  left: 50%;
+  position: relative;
+}
+.linkedin {
+  &:nth-child(1) {
+    // right: auto;
+    color: $green;
+    font-size: 90px;
+    line-height: 72px;
+    font-weight: 600;
+  }
+  &:nth-child(2) {
+    color: $red;
+    font-size: 120px;
+    line-height: 90px;
+    font-weight: 500;
+  }
+  &:nth-child(3) {
+    color: $yellow;
+    font-size: 50px;
+    line-height: 36px;
+    top: 6vh;
     transform: translateX(-60%) rotate(10deg);
   }
 }
 
 .coso {
-  min-height: 10vh;
+  min-height: 15vh;
 }
 
 .text-over-text-fade-title {
@@ -226,6 +248,10 @@ h1 {
 .img-fluid-github {
   max-width: 70%;
   height: 70%;
+}
+.img-fluid-linkedin {
+  max-width: 130%;
+  height: auto;
 }
 
 //? _____________________________________________GRID OF PILLS

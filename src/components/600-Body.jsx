@@ -9,6 +9,7 @@ import {BsLinkedin,BsGithub} from 'react-icons/bs'
 import GitHubCTA from './800-GitHubCTA'
 import converter from '../assets/hexToBase-yellow.png'
 import ConverterCTA from './900-ConverterCTA'
+import LinkedinCTA from './910-LnkedinCTA'
 
 const Body=()=>{
 
@@ -99,6 +100,34 @@ const Body=()=>{
                         {/* <Col md={4}></Col> */}
                     </Row>
                 </Container>
+            </Container>
+
+            <Container className='coso'></Container>
+            <Container className='coso'></Container>
+
+            <Container className='w-75'>
+                <Row>
+
+                    <Col md={1} className=''>
+
+                    </Col>
+                    <Col md={4} className=''>
+                        <LinkedinCTA />
+                    </Col>
+
+                    <Col md={7} className='mt-5 d-flex justify-content-center align-items-center'>
+                        <img
+                            alt=""
+                            src='https://media.giphy.com/media/HQTYdpx1yhxWpugAi2/giphy.gif'
+                            // width="200%"
+                            // height="200%"
+                            className="rounded-circle img-fluid"
+                            onClick={()=>window.open('https://www.linkedin.com/in/marcosaccarola')}
+                        />
+                    </Col>
+
+
+                </Row>
             </Container>
 
             <Container className='coso'></Container>
