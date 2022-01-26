@@ -72,8 +72,8 @@ const Body=()=>{
                     <img
                         alt=""
                         src={converter}
-                        // width="60%"
-                        // height="60%"
+                        // width="100%"
+                        // height="100%"
                         className="img-fluid rounded"
                         onClick={()=>window.open('https://hex-to-base64-converter.vercel.app/')}
                     />
@@ -81,6 +81,7 @@ const Body=()=>{
             </Container>
 
             <Container className='coso'></Container>
+            {/* <Container className='coso'></Container> */}
 
             <Container className='w-25 converter-cta-text-fade'>
                 <Container fluid className='mb-5 h-25 rounded text-over-img-fade'>
@@ -123,13 +124,37 @@ const Body=()=>{
                             // height="200%"
                             className="rounded-circle img-fluid"
                             onClick={()=>window.open('https://www.linkedin.com/in/marcosaccarola')}
-                        />
+                            />
                     </Col>
 
 
                 </Row>
             </Container>
 
+            <Container className='coso'></Container>
+            <Container className='coso'></Container>
+
+            <Container fluid className='my-5 h-25 rounded text-over-text-fade-title'>
+                <Row>
+                    <Col md={6}></Col>
+                    <Col md={1} className='text-end'>
+                        {/* <Button className='rounded-pill px-5 pb-2 bg-black border-0'> */}
+
+                        <section class="title-container my-5 ms-5">
+                            <h1>
+                                <span class="end">end</span>
+                                <span class="end">of</span>
+                                <span class="end">portfolio</span>
+                            </h1>
+                        </section>
+                        {/* </Button> */}
+                    </Col>
+                    {/* <Col md={4}></Col> */}
+                    <Col md={5}></Col>
+                </Row>
+            </Container>
+
+            <Container className='coso'></Container>
             <Container className='coso'></Container>
 
             <Container className='d-flex foot-icons bg-black w-75 mx-auto justify-content-end px-0 py-3 mt-5 mb-3'>
