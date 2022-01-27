@@ -7,12 +7,6 @@ import Body from './components/600-Body';
 function App() {
   return (
     <div className="min-vh-100 bg-animation text-light">
-    {/* <div className="App"> */}
-      {/* <header className="App-header"> */}
-        {/* <Home /> */}
-      {/* </header> */}
-
-      {/* <Bar /> */}
       <Body />
     </div>
   );
