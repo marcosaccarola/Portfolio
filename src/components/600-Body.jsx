@@ -8,8 +8,10 @@ import {MdAlternateEmail} from 'react-icons/md'
 import {BsLinkedin,BsGithub} from 'react-icons/bs'
 import GitHubCTA from './800-GitHubCTA'
 import converter from '../assets/hexToBase-yellow.png'
+import umbrellaTime from '../assets/umbrellaTime.png'
 import ConverterCTA from './900-ConverterCTA'
 import LinkedinCTA from './910-LnkedinCTA'
+import UmbrellaTimeCTA from './890-UmbrellaTime'
 
 const Body=()=>{
 
@@ -63,6 +65,22 @@ const Body=()=>{
             </Container>
 
             {/* <Container className='coso'></Container> */}
+
+            <Container className='mt-5'>
+                <Container className='w-25 converter-cta-text-fade'>
+                    <UmbrellaTimeCTA className='' />
+                </Container>
+                <Container className=''>
+                    <img
+                        alt=""
+                        src={umbrellaTime}
+                        // width="100%"
+                        // height="100%"
+                        className="img-fluid rounded"
+                        onClick={()=>window.open('https://hex-to-base64-converter.vercel.app/')}
+                    />
+                </Container>
+            </Container>
 
             <Container className='mt-5'>
                 <Container className='w-25 converter-cta-text-fade'>
