@@ -9,11 +9,11 @@ const UmbrellaTimeCTA=()=>{
                 <Col md={12} className='mb-4'>
                     {/* <Button className='rounded-pill px-5 pb-2 bg-black border-0'> */}
 
-                    <section class="title-container mb-5 ms-5"  onClick={()=>window.open('https://hex-to-base64-converter.vercel.app/')}>
+                    <section class="title-container mb-5 ms-5"  onClick={()=>window.open('https://umbrellatime.vercel.app/')}>
                         <h1>
-                            <span class="converter">•</span>
-                            <span class="converter">it's raining?</span>
-                            <span class="converter">oh noooo!</span>
+                            <span class="umbrella">•</span>
+                            <span class="umbrella">is it raining?</span>
+                            <span class="umbrella">oh noooo!</span>
                         </h1>
                     </section>
                     {/* </Button> */}
