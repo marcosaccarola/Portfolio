@@ -7,8 +7,6 @@ const GitHubCTA=()=>{
         <Container fluid className='mb-5 h-25 rounded text-over-text-fade'>
             <Row>
                 <Col md={12} className='text-end'>
-                    {/* <Button className='rounded-pill px-5 pb-2 bg-black border-0'> */}
-
                     <section class="title-container mb-5 ms-5">
                         <h1>
                             <span class="github">taste my</span>
@@ -16,9 +14,7 @@ const GitHubCTA=()=>{
                             <span class="title">sweets inside!</span>
                         </h1>
                     </section>
-                    {/* </Button> */}
                 </Col>
-                {/* <Col md={4}></Col> */}
             </Row>
         </Container>
     )

@@ -1,4 +1,4 @@
-import {Container,Row,Col, Button} from 'react-bootstrap'
+import {Container,Row,Col} from 'react-bootstrap'
 
 
 const LinkedinCTA=()=>{
@@ -7,8 +7,6 @@ const LinkedinCTA=()=>{
         <Container fluid className='mb-5 h-25 rounded text-over-img-fade'>
             <Row>
                 <Col md={12} className='text-end'>
-                    {/* <Button className='rounded-pill px-5 pb-2 bg-black border-0'> */}
-
                     <section class="title-container mb-5 ms-5">
                         <h1>
                             <span class="linkedin">so see you on</span>
@@ -16,9 +14,7 @@ const LinkedinCTA=()=>{
                             <span class="linkedin">so professional!</span>
                         </h1>
                     </section>
-                    {/* </Button> */}
                 </Col>
-                {/* <Col md={4}></Col> */}
             </Row>
         </Container>
     )

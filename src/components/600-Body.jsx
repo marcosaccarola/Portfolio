@@ -3,7 +3,6 @@ import { Col, Container, Row } from "react-bootstrap"
 import avatar from '../assets/linkedin-profilo-500.png'
 import Name from "./690-Name"
 import Pills from "./700-Pills"
-// import gitgif from 'https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif'
 import {MdAlternateEmail} from 'react-icons/md'
 import {BsLinkedin,BsGithub} from 'react-icons/bs'
 import GitHubCTA from './800-GitHubCTA'
@@ -18,10 +17,8 @@ const Body=()=>{
     return(
         <>
         <Container fluid className=''>
-
             <Container className='w-75'>
                 <Row>
-
                     <Col md={4} className=''>
                         <Name />
                     </Col>
@@ -30,12 +27,9 @@ const Body=()=>{
                         <img
                             alt=""
                             src={avatar}
-                            // width="60%"
-                            // height="60%"
                             className="rounded-circle img-fluid"
                         />
                     </Col>
-
                 </Row>
             </Container>
         
@@ -50,8 +44,6 @@ const Body=()=>{
                         <img
                             alt=""
                             src='https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif'
-                            // width="60%"
-                            // height="60%"
                             className="rounded-circle img-fluid"
                             onClick={()=>window.open('https://github.com/marcosaccarola')}
                         />
@@ -64,8 +56,6 @@ const Body=()=>{
                 </Row>
             </Container>
 
-            {/* <Container className='coso'></Container> */}
-
             <Container className='mt-5'>
                 <Container className='w-25 converter-cta-text-fade'>
                     <UmbrellaTimeCTA className='' />
@@ -74,8 +64,6 @@ const Body=()=>{
                     <img
                         alt=""
                         src={umbrellaTime}
-                        // width="100%"
-                        // height="100%"
                         className="img-fluid rounded"
                         onClick={()=>window.open('https://umbrellatime.vercel.app/')}
                     />
@@ -90,8 +78,6 @@ const Body=()=>{
                     <img
                         alt=""
                         src={converter}
-                        // width="100%"
-                        // height="100%"
                         className="img-fluid rounded"
                         onClick={()=>window.open('https://hex-to-base64-converter.vercel.app/')}
                     />
@@ -99,14 +85,11 @@ const Body=()=>{
             </Container>
 
             <Container className='coso'></Container>
-            {/* <Container className='coso'></Container> */}
 
             <Container className='w-25 converter-cta-text-fade'>
                 <Container fluid className='mb-5 h-25 rounded text-over-img-fade'>
                     <Row>
                         <Col md={12} className='mb-4'>
-                            {/* <Button className='rounded-pill px-5 pb-2 bg-black border-0'> */}
-
                             <section class="title-container mb-5 ms-5"  onClick={()=>window.open('https://hex-to-base64-converter.vercel.app/')}>
                                 <h1>
                                     <span class="much-more">much more</span>
@@ -114,9 +97,7 @@ const Body=()=>{
                                     <span class="much-more">•</span>
                                 </h1>
                             </section>
-                            {/* </Button> */}
                         </Col>
-                        {/* <Col md={4}></Col> */}
                     </Row>
                 </Container>
             </Container>
@@ -138,8 +119,6 @@ const Body=()=>{
                         <img
                             alt=""
                             src='https://media.giphy.com/media/HQTYdpx1yhxWpugAi2/giphy.gif'
-                            // width="200%"
-                            // height="200%"
                             className="rounded-circle img-fluid"
                             onClick={()=>window.open('https://www.linkedin.com/in/marcosaccarola')}
                             />
@@ -156,8 +135,6 @@ const Body=()=>{
                 <Row>
                     <Col md={6}></Col>
                     <Col md={1} className='text-end'>
-                        {/* <Button className='rounded-pill px-5 pb-2 bg-black border-0'> */}
-
                         <section class="title-container my-5 ms-5">
                             <h1>
                                 <span class="end">end</span>
@@ -165,9 +142,7 @@ const Body=()=>{
                                 <span class="end">portfolio</span>
                             </h1>
                         </section>
-                        {/* </Button> */}
                     </Col>
-                    {/* <Col md={4}></Col> */}
                     <Col md={5}></Col>
                 </Row>
             </Container>
