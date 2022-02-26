@@ -1,16 +1,16 @@
 import './999-style.scss'
 import { Col, Container, Row } from "react-bootstrap"
 import avatar from '../assets/linkedin-profilo-500.png'
-import Name from "./690-Name"
-import Pills from "./700-Pills"
+import Name from "./200-Name"
+import Pills from "./300-Pills"
 import {MdAlternateEmail} from 'react-icons/md'
 import {BsLinkedin,BsGithub} from 'react-icons/bs'
-import GitHubCTA from './800-GitHubCTA'
+import GitHubCTA from './400-GitHubCTA'
 import converter from '../assets/hexToBase-yellow.png'
 import umbrellaTime from '../assets/umbrellaTime.png'
-import ConverterCTA from './900-ConverterCTA'
-import LinkedinCTA from './910-LnkedinCTA'
-import UmbrellaTimeCTA from './890-UmbrellaTime'
+import ConverterCTA from './510-ConverterCTA'
+import LinkedinCTA from './600-LnkedinCTA'
+import UmbrellaTimeCTA from './500-UmbrellaTime'
 
 const Body=()=>{
 
